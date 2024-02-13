@@ -39,7 +39,7 @@
                     <figure><img src="./images/rectangle.png" alt="Rectangle" /></figure>
                     <div class="card-body">
                       <h2 class="font-bold text-center text-2xl">Rectangle</h2>
-                      <p class="text-base text-center font-normal">Area (A) = w X l</p>
+                      <p class="text-base text-center font-normal">Area (A) = w  X  l</p>
                       <div class="mb-10 mt-6">
                         <input id="rectangleW" class="w-24 text-2xl p-2 bg-slate-200 rounded-sm" type="text" id="" placeholder="w">
                         <span class="mr-4 ml-2">cm</span>
@@ -50,14 +50,14 @@
                         <p class="text-base">Area: <span id="rectangle-area" ></span> cm<sup>2</sup></p>
                       </div>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary w-full">Calculate</button>
+                        <button onclick="rectangleAreaCalculate()" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                 </div>
                 <div class="card w-full bg-base-100 shadow-xl">
                     <figure><img src="./images/triangle.png" alt="Triangle" /></figure>
                     <div class="card-body">
-                      <h2 class="font-bold text-center text-2xl">Triangle</h2>
+                      <h2 class="font-bold text-center text-2xl">Parallelogram</h2>
                       <p class="text-base text-center font-normal">Area (A) = 0.5 X b X h</p>
                       <div class="mb-10 mt-6">
                         <input class="w-24 text-2xl p-2 bg-slate-200 rounded-sm" type="text" id="" placeholder="b">
@@ -129,5 +129,6 @@
 
     <div style="margin-bottom: 500px;"></div>
     <script src="./js/tiangle.js"></script>
+    <script src="./js/rectangle.js"></script>
 </body>
 </html>
